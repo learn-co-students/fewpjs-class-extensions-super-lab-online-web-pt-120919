@@ -25,6 +25,8 @@ class Deciduous extends Tree {
     let d = new Deciduous('O species', ' O name');
     console.log(Deciduous.definition());
     console.log (d)
+    console.log('Type', typeof d)
+    console.log('Belongs to', d.constructor)
 
 class Evergreen extends Tree {
 
